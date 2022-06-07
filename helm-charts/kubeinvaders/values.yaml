@@ -37,7 +37,7 @@ service:
 
 ingress:
   enabled: true
-  ingressClassName: nginx
+  ingressClassName: "nginx"
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
   hostName: ""
